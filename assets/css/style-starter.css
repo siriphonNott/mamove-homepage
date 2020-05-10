@@ -10336,7 +10336,7 @@ figure {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px; }
   .counter {
-    text-align: left; } }
+    text-align: center; } }
 
 @media only screen and (max-width: 480px) {
   .section-title, .left-title {
