@@ -1,7 +1,7 @@
 {
   "name": "mamove",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "repository": "https://github.com/siriphonNott/mamove-homepage.git",
   "author": "nottdev <siriphon@gmail.com>",
   "license": "MIT",
