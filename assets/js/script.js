@@ -151,4 +151,8 @@ $(function() {
       }
     );
   }
+  
+  $.get( "https://api.mamove.co/api/v1/dashboard/total-users", (data)=>{
+    $('.total-users').text(data.totalCustomers || '')
+  });
 });
