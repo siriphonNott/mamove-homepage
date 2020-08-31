@@ -10255,6 +10255,9 @@ figure {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px; }
 
+	.blog-grid {
+		margin-bottom: 20px;
+	}
 .blog-grid img {
   display: block;
   width: 100%; }
