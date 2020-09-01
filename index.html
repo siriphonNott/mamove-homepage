@@ -513,13 +513,9 @@
 		let playerIntroduce, playerPromote, owl
 		playerIntroduce = new Plyr('#player')
 		playerPromote   = new Plyr('#player-news')
-		owl = $('.owl-carousel');
-	
-		playerPromote.on('ready', event => {
-			const instance = event.detail.plyr
-			setTimeout(() => instance.play(), 2000)
-		})
+		playerPromote.autoplay = true
 
+		owl = $('.owl-carousel')
     owl.owlCarousel({
       margin: 10,
       nav: true,
