@@ -89,7 +89,7 @@
 	<div class="container">
 
 		<!-- Present NEWS -->
-		<div class="pb-5 row">
+		<div class="row pb-5-lg">
 			<div class="col-lg-8 offset-lg-2 text-center">
 				<h6 class="title pb-2">รายการ Daily C3 - ข่าวช่อง3 CH3 Thailand NEWS</h6>
 				<div class="shadow-lg promote-vdo">
@@ -517,7 +517,7 @@
 	
 		playerPromote.on('ready', event => {
 			const instance = event.detail.plyr
-			instance.play()
+			setTimeout(() => instance.play(), 2000)
 		})
 
     owl.owlCarousel({

@@ -11013,6 +11013,9 @@ strong.info {
 .column3 a.instagram {
 	color: #c13584; }
 	
+.pb-5-lg {
+	padding-bottom: 3rem;
+}
 .show-on-pc {
 	display: block;
 }
@@ -11078,6 +11081,9 @@ strong.info {
 @media screen and (max-width: 768px) {
 	.show-on-pc {
 		display: none;
+	}
+	.pb-5-lg {
+		padding-bottom: 0px;
 	}
   .contact-input1 {
     margin-right: 0px;
