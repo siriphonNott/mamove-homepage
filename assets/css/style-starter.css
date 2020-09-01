@@ -11011,7 +11011,11 @@ strong.info {
   color: #0077b5; }
 
 .column3 a.instagram {
-  color: #c13584; }
+	color: #c13584; }
+	
+.show-on-pc {
+	display: block;
+}
 
 @media (max-width: 1024px) {
   .grid-column-2 {
@@ -11072,6 +11076,9 @@ strong.info {
     max-width: 100%; } }
 
 @media screen and (max-width: 768px) {
+	.show-on-pc {
+		display: none;
+	}
   .contact-input1 {
     margin-right: 0px;
     margin-bottom: 30px;
