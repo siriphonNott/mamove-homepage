@@ -516,7 +516,9 @@
 		playerPromote.autoplay = true
 		playerPromote.on('ready', event => {
 			const instance = event.detail.plyr;
-			setTimeout(() => instance.play(), 2000);
+			setTimeout(() => {
+				if(!instance.playing) instance.play()
+			}, 3000);
 		});
 
 		owl = $('.owl-carousel')
