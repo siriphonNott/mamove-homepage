@@ -10,14 +10,15 @@
 
   <!-- Facebook -->
   <meta property="og:title" content="Mamove สติ๊กเกอร์ QR Code ติดรถที่คนใช้รถต้องมี" />
-  <meta property="og:description" content="Mamove เป็นบริการรูปแบบใหม่ที่จะมาช่วยแก้ปัญหาเรื่องของการ จอดรถกีดขวางกัน ให้หมดไปโดยเราจะช่วยเป็นตัวเเทนเจ้าของรถให้ในเวลาที่ท่านไม่อยู่ และเรียกท่านผ่าน Line Official Mamove เมื่อมีคนต้องการเรียกท่านมาเลื่อนรถ" />
+  <meta property="og:description"
+    content="Mamove เป็นบริการรูปแบบใหม่ที่จะมาช่วยแก้ปัญหาเรื่องของการ จอดรถกีดขวางกัน ให้หมดไปโดยเราจะช่วยเป็นตัวเเทนเจ้าของรถให้ในเวลาที่ท่านไม่อยู่ และเรียกท่านผ่าน Line Official Mamove เมื่อมีคนต้องการเรียกท่านมาเลื่อนรถ" />
   <meta property="og:image" content="https://homepage.mamove.co/assets/images/mamove-sticker.jpg" />
   <meta property="og:url" content="https://homepage.mamove.co" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="https://homepage.mamove.co" />
   <meta name="twitter:creator" content="@notcoe" />
- 
+
 
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -29,608 +30,728 @@
     html {
       font-family: 'Kanit', sans-serif;
     }
-    h1, h2, h3, h4, h5, h6, p, a, span, button, li {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    span,
+    button,
+    li {
       font-family: 'Kanit', sans-serif;
     }
-    h1, h2, h3, h4, h5 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
       font-weight: 500;
     }
+
     h6 {
       font-weight: 400;
     }
+
     ul {
       padding-left: 15px;
       list-style-type: none;
     }
-    .social > a {
+
+    .social>a {
       font-size: 2rem;
     }
+
     .statcounter {
       display: none;
     }
+
     .underline-red {
       text-decoration: underline 3px red;
     }
+
+    @media screen and (max-width: 575px) {
+      .dashboard-wrapper {
+          gap: 3rem;
+        }
+      }
   </style>
 
 </head>
 
 <body>
-<!-- site header -->
-<header id="site-header" class="fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#"  data-aos="zoom-in">
-        <img src="assets/images/logo.png" alt="Mamove สติ๊กเกอร์ QR Code ติดรถที่คนใช้รถต้องมี" class="rounded-circle img-fluid mr-1" width="50"><span class="logo"> Mamove</span> 
+  <!-- site header -->
+  <header id="site-header" class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#" data-aos="zoom-in">
+        <img src="assets/images/logo.png" alt="Mamove สติ๊กเกอร์ QR Code ติดรถที่คนใช้รถต้องมี"
+          class="rounded-circle img-fluid mr-1" width="50"><span class="logo"> Mamove</span>
       </a>
-  </nav>
-</header>
-<!-- //site header -->
+    </nav>
+  </header>
+  <!-- //site header -->
 
-<!-- banner section -->
-<section id="home" class="banner">
-	<div id="banner-bg-effect" class="banner-effect"></div>
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-				<h1  class="mb-4 title"><strong>Mamove </strong>สติ๊กเกอร์ QR Code ติดรถที่คนใช้รถต้องมี</h1>
-				<p  style="font-size: 1.5rem; line-height: 1.5;">คุณเบื่อมั้ย ? กับปัญหาเรื่องการจอดรถ ว่าจะกีดขวางทางเข้าออกใครหรือเปล่าจะดีกว่ามั้ย ? ถ้ามี Sticker แปะไว้ท้ายรถ สำหรับให้คนเรียกเรามา “เลื่อนรถ”  ผ่านทาง <a target="_blank"><span style="font-size: 2.0rem;"><strong> Line Official Mamove</strong> </span></a></p>
-				<div  class="mt-5">
-					<a class="btn btn-primary btn-style mr-2" target="_blank" href="https://www.facebook.com/mamovethailand">สนใจซื้อสินค้า </a>
-				</div>
-			</div>
-			<div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
-				<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-					<img src="assets/images/mamove-sticker.jpg" alt="mamove-sticker" class="img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- //banner section -->
+  <!-- banner section -->
+  <section id="home" class="banner">
+    <div id="banner-bg-effect" class="banner-effect"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 col-md-12 col-sm-12 order-lg-first mt-lg-0 mt-4" data-aos="fade-right"
+          data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h1 class="mb-4 title"><strong>Mamove </strong>สติ๊กเกอร์ QR Code ติดรถที่คนใช้รถต้องมี</h1>
+          <p style="font-size: 1.5rem; line-height: 1.5;">คุณเบื่อมั้ย ? กับปัญหาเรื่องการจอดรถ
+            ว่าจะกีดขวางทางเข้าออกใครหรือเปล่าจะดีกว่ามั้ย ? ถ้ามี Sticker แปะไว้ท้ายรถ สำหรับให้คนเรียกเรามา “เลื่อนรถ”
+            ผ่านทาง <a target="_blank"><span style="font-size: 2.0rem;"><strong> Line Official Mamove</strong>
+              </span></a></p>
+          <div class="mt-5">
+            <a class="btn btn-primary btn-style mr-2" target="_blank"
+              href="https://www.facebook.com/mamovethailand">สนใจซื้อสินค้า </a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 order-first text-lg-left text-center">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img src="assets/images/mamove-sticker.jpg" alt="mamove-sticker" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //banner section -->
 
-<!-- home page about -->
-<section class="w3l-about">
-	<div class="container">
+  <!-- home page about -->
+  <section class="w3l-about">
+    <div class="container">
 
-		<!-- Present NEWS -->
-		<div class="row pb-5-lg" data-aos="fade-up">
-			<div class="col-lg-8 offset-lg-2 text-center">
-				<h6 class="title pb-2">รายการ Daily C3 - ข่าวช่อง3 CH3 Thailand NEWS</h6>
-				<div class="shadow-lg promote-vdo">
-					<div id="player-news" data-plyr-provider="youtube" data-plyr-embed-id="OamoYDRWUIA"></div>
-				</div>
-			</div>
-		</div>
+      <!-- Present NEWS -->
+      <div class="row pb-5-lg" data-aos="fade-up">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h6 class="title pb-2">รายการ Daily C3 - ข่าวช่อง3 CH3 Thailand NEWS</h6>
+          <div class="shadow-lg promote-vdo">
+            <div id="player-news" data-plyr-provider="youtube" data-plyr-embed-id="OamoYDRWUIA"></div>
+          </div>
+        </div>
+      </div>
 
-		<div class="py-3 show-on-pc"></div>
+      <div class="py-3 show-on-pc"></div>
 
-		<div class="row about-content mt-5">
-			<div class="col-lg-6 info mb-lg-0 mb-sm-5 mb-2 align-center" data-aos="fade-up">
-				<h6 class="title mb-3 ">Mamove เป็นบริการรูปแบบใหม่ที่จะมาช่วยแก้ปัญหาเรื่องของการ จอดรถกีดขวางกัน ให้หมดไปโดยเราจะช่วยเป็นตัวเเทนเจ้าของรถให้ในเวลาที่ท่านไม่อยู่ และเรียกท่านผ่าน Line Official Mamove เมื่อมีคนต้องการเรียกท่านมาเลื่อนรถ</h6>
-				<p class="mb-2 text-dark">Sticker Mamove ของเรามีนโยบายให้กับลูกค้าคือ</p>
-				<ul>
-					<li><p>👍 สะดวก: "ใช้งานง่ายไม่ต้องโหลดแอพพลิเคชั่นใดๆเพิ่ม ทั้งเจ้าของรถและผู้สเเกน"</p></li>
-					<li><p>👍 ส่วนตัว: "ทั้งสองฝ่ายติดต่อกันผ่าน Mamove ไม่มีการเปิดเผยตัวตนเจ้าของรถ"</p></li>
-					<li><p>👍 ปลอดภัย: "สามารถ เปิด-ปิด ฟังก์ชันการให้สเเกนได้เมื่อไม่ต้องการให้คนสเเก"</p></li>
-					<li><p>👍 ไร้กังวล: "สามารถทำกิจกรรมต่างๆได้อย่างสบายใจ ไม่ต้องห่วงว่าจะถูกใครทุบรถ"</p></li>
-				</ul>
-			</div>
-			<div class="col-lg-6 mb-5">
-				<div class="shadow-lg" data-aos="fade-up">
-					<div id="player" data-plyr-provider="youtube"  data-plyr-embed-id="6B2t9ujT_5w"></div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row align-items-center mt-lg-5" data-aos="fade-up">
-			<div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-					<h4 class="section-title">ใช้งานง่ายๆ แค่ 3 ขั้นตอน</h4>
-					<p class="text-center"></p>
-			</div>
-		</div>
+      <div class="row about-content mt-5">
+        <div class="col-lg-6 info mb-lg-0 mb-sm-5 mb-2 align-center" data-aos="fade-up">
+          <h6 class="title mb-3 ">Mamove เป็นบริการรูปแบบใหม่ที่จะมาช่วยแก้ปัญหาเรื่องของการ จอดรถกีดขวางกัน
+            ให้หมดไปโดยเราจะช่วยเป็นตัวเเทนเจ้าของรถให้ในเวลาที่ท่านไม่อยู่ และเรียกท่านผ่าน Line Official Mamove
+            เมื่อมีคนต้องการเรียกท่านมาเลื่อนรถ</h6>
+          <p class="mb-2 text-dark">Sticker Mamove ของเรามีนโยบายให้กับลูกค้าคือ</p>
+          <ul>
+            <li>
+              <p>👍 สะดวก: "ใช้งานง่ายไม่ต้องโหลดแอพพลิเคชั่นใดๆเพิ่ม ทั้งเจ้าของรถและผู้สเเกน"</p>
+            </li>
+            <li>
+              <p>👍 ส่วนตัว: "ทั้งสองฝ่ายติดต่อกันผ่าน Mamove ไม่มีการเปิดเผยตัวตนเจ้าของรถ"</p>
+            </li>
+            <li>
+              <p>👍 ปลอดภัย: "สามารถ เปิด-ปิด ฟังก์ชันการให้สเเกนได้เมื่อไม่ต้องการให้คนสเเก"</p>
+            </li>
+            <li>
+              <p>👍 ไร้กังวล: "สามารถทำกิจกรรมต่างๆได้อย่างสบายใจ ไม่ต้องห่วงว่าจะถูกใครทุบรถ"</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 mb-5">
+          <div class="shadow-lg" data-aos="fade-up">
+            <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="6B2t9ujT_5w"></div>
+          </div>
+        </div>
+      </div>
 
-		<div class="row main-cont-wthree-2 mt-5" >
-			<div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
-					<img src="assets/images/app-screen-1.jpg" class="img-fluid rounded-circle shadow"  width="250" alt="สเเกน QR Code ที่สติ๊กเกอร์ เพื่อ Add Line Mamove">
-			</div>
-			<div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
-				<h4 class="title-left">ขั้นตอนที่ 1</h4>
-				<p class="text-para">สเเกน QR Code ที่สติ๊กเกอร์ เพื่อ Add Line Mamove และกดเข้าเมนูลงทะเบียนเพื่อกรอกข้อมูลรถผู้ใช้ พร้อมกรอกรหัสลงทะเบียนที่ได้รับ ในขั้นตอนสุดท้าย ก็เป็นอันเสร็จ</p>
-			</div>
-		</div>
+      <div class="row align-items-center mt-lg-5" data-aos="fade-up">
+        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+          <h4 class="section-title">ใช้งานง่ายๆ แค่ 3 ขั้นตอน</h4>
+          <p class="text-center"></p>
+        </div>
+      </div>
 
-		<div class="row main-cont-wthree-2 mt-5" >
-			<div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
-					<img src="assets/images/app-screen-2.jpg" class="img-fluid rounded-circle shadow"  width="250" alt="กดปุ่มเพื่อแจ้งเจ้าของรถ พร้อมกรอกเบอร์โทร">
-			</div>
-			<div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
-				<h4 class="title-left">ขั้นตอนที่ 2</h4>
-				<p class="text-para">ทดสอบสติ๊กเกอร์โดยการ สเเกน QR Code ที่สติ๊กเกอร์อีกครั้ง หากขึ้นหน้าจอ "กดปุ่มเพื่อแจ้งเจ้าของรถ" ให้ทดลองกด พร้อมกรอกเบอร์โทร กดตกลง</p>
-			</div>
-		</div>
+      <div class="row main-cont-wthree-2 mt-5">
+        <div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
+          <img src="assets/images/app-screen-1.jpg" class="img-fluid rounded-circle shadow" width="250"
+            alt="สเเกน QR Code ที่สติ๊กเกอร์ เพื่อ Add Line Mamove">
+        </div>
+        <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
+          <h4 class="title-left">ขั้นตอนที่ 1</h4>
+          <p class="text-para">สเเกน QR Code ที่สติ๊กเกอร์ เพื่อ Add Line Mamove
+            และกดเข้าเมนูลงทะเบียนเพื่อกรอกข้อมูลรถผู้ใช้ พร้อมกรอกรหัสลงทะเบียนที่ได้รับ ในขั้นตอนสุดท้าย
+            ก็เป็นอันเสร็จ</p>
+        </div>
+      </div>
 
-		<div class="row main-cont-wthree-2 mt-5">
-			<div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
-					<img src="assets/images/app-screen-3.jpg" class="img-fluid rounded-circle shadow"  width="250" alt="Line Mamove เพื่อดูการเเจ้งเตือน ">
-			</div>
-			<div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
-				<h4 class="title-left">ขั้นตอนที่ 3</h4>
-				<p class="text-para">เข้าหน้าจอ Line Mamove เพื่อดูการเเจ้งเตือน ทดลองกดปุ่มตอบรับ "กำลังไป" หรือ "ไม่สะดวก" เท่านี้สติ๊กเกอร์ QR Code ของเราก็พร้อมรองรับการสเเกนเมื่อเราเผลอไปจอดขวางใครเเล้วครับ</p>
-			</div>
-		</div>
-			
-	</div>
-</section>
-<!-- //home page about -->
+      <div class="row main-cont-wthree-2 mt-5">
+        <div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
+          <img src="assets/images/app-screen-2.jpg" class="img-fluid rounded-circle shadow" width="250"
+            alt="กดปุ่มเพื่อแจ้งเจ้าของรถ พร้อมกรอกเบอร์โทร">
+        </div>
+        <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
+          <h4 class="title-left">ขั้นตอนที่ 2</h4>
+          <p class="text-para">ทดสอบสติ๊กเกอร์โดยการ สเเกน QR Code ที่สติ๊กเกอร์อีกครั้ง หากขึ้นหน้าจอ
+            "กดปุ่มเพื่อแจ้งเจ้าของรถ" ให้ทดลองกด พร้อมกรอกเบอร์โทร กดตกลง</p>
+        </div>
+      </div>
 
-<!-- /mobile section --->
-<section class="w3l-mobile-content-6">
-  <div class="mobile-info">
+      <div class="row main-cont-wthree-2 mt-5">
+        <div class="col-lg-6 feature-grid-right text-center" data-aos="fade-up">
+          <img src="assets/images/app-screen-3.jpg" class="img-fluid rounded-circle shadow" width="250"
+            alt="Line Mamove เพื่อดูการเเจ้งเตือน ">
+        </div>
+        <div class="col-lg-6 feature-grid-left mt-lg-0 mt-sm-5 mt-4" data-aos="fade-up">
+          <h4 class="title-left">ขั้นตอนที่ 3</h4>
+          <p class="text-para">เข้าหน้าจอ Line Mamove เพื่อดูการเเจ้งเตือน ทดลองกดปุ่มตอบรับ "กำลังไป" หรือ "ไม่สะดวก"
+            เท่านี้สติ๊กเกอร์ QR Code ของเราก็พร้อมรองรับการสเเกนเมื่อเราเผลอไปจอดขวางใครเเล้วครับ</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- //home page about -->
+
+  <!-- /mobile section --->
+  <section class="w3l-mobile-content-6">
+    <div class="mobile-info">
       <!-- /mobile-info-->
       <div class="container">
-          <div class="row mobile-info-inn mx-lg-0">
-              <div class="col-lg-4 mobile-right">
-                  <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-pencil-square-o"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                          <h6><a >ปุ่มลงทะเบียน/แก้ไข ข้อมูลผู้ใช้</a></h6>
-                          <p>ผู้ใช้สามารถใช้ปุ่มนี้เพื่อลงทะเบียนครั้งเเรก / แก้ไขมูลรถยนต์ ได้ตลอดเวลา
-                            หากผู้ใช้มีรถมากกว่า 1 คันสามารถเข้ามาลงทะเบียนเพิ่มได้
-                           <br/>*หมายเหตุ หากต้องการเปลี่ยนแปลง Line Account ผู้ใช้งานสามารถเเจ้งทางเพจเพื่อทำการเปลี่ยนให้ได้ทุกเมื่อ</p>
-                      </div>
-                  </div>
-                  <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-search"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                        <h6><a>ปุ่มตรวจสอบ วันหมดอายุพรบ.</a></h6>
-                        <p>ใช้สำหรับตรวจสอบข้อมูลกำหนดการต่ออายุ ของ ประกัน พรบ. ภาษีประจำปี และเลขไมล์ในการตรวจสภาพรถครั้งถัดไป
-                          <br/>*ข้อเเนะนำ หากลูกค้าต้องการใช้บริการเเจ้งเตือนวันหมดอายุของ ประกัน พรบ. และภาษีประจำปี ล่วงหน้า 30 วัน ควรกรอกข้อมูลให้ครบทุกช่อง</p>
-                      </div>
-                  </div>
-                  <div class="row mobile-right-grids" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-book"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                        <h6><a>ปุ่มคู่มือการตรวจสภาพรถก่อนออกเดินทาง</a></h6>
-                        <p>ใช้สำหรับเป็นคู่มือในการตรวจเช็ครถก่อนเดินทางไกล</p>
-                      </div>
-                  </div>
+        <div class="row mobile-info-inn mx-lg-0">
+          <div class="col-lg-4 mobile-right">
+            <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-pencil-square-o"></span>
+                </div>
               </div>
-              <div class="col-lg-4 mobile-left">
-                  <img src="assets/images/mobile.png" class="img-fluid" alt="" data-aos="fade-up">
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มลงทะเบียน/แก้ไข ข้อมูลผู้ใช้</a></h6>
+                <p>ผู้ใช้สามารถใช้ปุ่มนี้เพื่อลงทะเบียนครั้งเเรก / แก้ไขมูลรถยนต์ ได้ตลอดเวลา
+                  หากผู้ใช้มีรถมากกว่า 1 คันสามารถเข้ามาลงทะเบียนเพิ่มได้
+                  <br />*หมายเหตุ หากต้องการเปลี่ยนแปลง Line Account
+                  ผู้ใช้งานสามารถเเจ้งทางเพจเพื่อทำการเปลี่ยนให้ได้ทุกเมื่อ
+                </p>
               </div>
-              <div class="col-lg-4 mobile-right">
-                  <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-shopping-cart"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                        <h6><a>ปุ่มสนใจซื้อสินค้า</a></h6>
-                        <p>ใช้สำหรับติดต่อ Mamove เพื่อสั่งซื้อสติ๊กเกอร์</p>
-                      </div>
-                  </div>
-                  <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-facebook-f"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                        <h6><a>ปุ่มติดต่อ Fanpage</a></h6>
-                        <p>ใช้สำหรับเเจ้งปัญหาการใช้งานเเละสอบถามเพิ่มเติม</p>
-                      </div>
-                  </div>
-                  <div class="row mobile-right-grids" data-aos="fade-up">
-                      <div class="col-2 mobile-right-icon">
-                          <div class="mobile-icon">
-                              <span class="fa fa-cogs"></span>
-                          </div>
-                      </div>
-                      <div class="col-10 mobile-right-info">
-                          <h6><a>ปุ่มตั้งค่าการ Mamove</a></h6>
-                          <p>ใช้สำหรับ เปิด-ปิด ฟังก์ชันสเเสกน QR Code เพื่อเรียกผู้ใช้มาเลื่อนรถ หรือ เปิด-ปิด การแสดงเบอร์โทรให้ผู้เรียกสามารถโทรด่วนมาหาเจ้าของรถได้
-                            <br/>*คำแนะนำ ควรเปิดไว้ตลอดเวลา ปิดเมื่อโดนก่อกวนหรือไม่ต้องการใช้งานเท่านั้น</p>
-                      </div>
-                  </div>
+            </div>
+            <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-search"></span>
+                </div>
               </div>
-
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มตรวจสอบ วันหมดอายุพรบ.</a></h6>
+                <p>ใช้สำหรับตรวจสอบข้อมูลกำหนดการต่ออายุ ของ ประกัน พรบ. ภาษีประจำปี และเลขไมล์ในการตรวจสภาพรถครั้งถัดไป
+                  <br />*ข้อเเนะนำ หากลูกค้าต้องการใช้บริการเเจ้งเตือนวันหมดอายุของ ประกัน พรบ. และภาษีประจำปี ล่วงหน้า
+                  30 วัน ควรกรอกข้อมูลให้ครบทุกช่อง
+                </p>
+              </div>
+            </div>
+            <div class="row mobile-right-grids" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-book"></span>
+                </div>
+              </div>
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มคู่มือการตรวจสภาพรถก่อนออกเดินทาง</a></h6>
+                <p>ใช้สำหรับเป็นคู่มือในการตรวจเช็ครถก่อนเดินทางไกล</p>
+              </div>
+            </div>
           </div>
+          <div class="col-lg-4 mobile-left">
+            <img src="assets/images/mobile.png" class="img-fluid" alt="" data-aos="fade-up">
+          </div>
+          <div class="col-lg-4 mobile-right">
+            <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-shopping-cart"></span>
+                </div>
+              </div>
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มสนใจซื้อสินค้า</a></h6>
+                <p>ใช้สำหรับติดต่อ Mamove เพื่อสั่งซื้อสติ๊กเกอร์</p>
+              </div>
+            </div>
+            <div class="row mobile-right-grids mb-lg-5 mb-4" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-facebook-f"></span>
+                </div>
+              </div>
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มติดต่อ Fanpage</a></h6>
+                <p>ใช้สำหรับเเจ้งปัญหาการใช้งานเเละสอบถามเพิ่มเติม</p>
+              </div>
+            </div>
+            <div class="row mobile-right-grids" data-aos="fade-up">
+              <div class="col-2 mobile-right-icon">
+                <div class="mobile-icon">
+                  <span class="fa fa-cogs"></span>
+                </div>
+              </div>
+              <div class="col-10 mobile-right-info">
+                <h6><a>ปุ่มตั้งค่าการ Mamove</a></h6>
+                <p>ใช้สำหรับ เปิด-ปิด ฟังก์ชันสเเสกน QR Code เพื่อเรียกผู้ใช้มาเลื่อนรถ หรือ เปิด-ปิด
+                  การแสดงเบอร์โทรให้ผู้เรียกสามารถโทรด่วนมาหาเจ้าของรถได้
+                  <br />*คำแนะนำ ควรเปิดไว้ตลอดเวลา ปิดเมื่อโดนก่อกวนหรือไม่ต้องการใช้งานเท่านั้น
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
       <!-- //mobile-info-->
-  </div>
-</section>
-<!-- //mobile section --->
+    </div>
+  </section>
+  <!-- //mobile section --->
 
-<!-- testimonials section -->
-<section id="slider" class="testimonials">
+  <!-- testimonials section -->
+  <section id="slider" class="testimonials">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12" data-aos="fade-up">
-                <h4 class="section-title">We Have An Expert Team</h4>
-                <p class="text-center">
-                </p>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12" data-aos="fade-up">
+          <h4 class="section-title">We Have An Expert Team</h4>
+          <p class="text-center">
+          </p>
         </div>
-        <div class="large-12 columns mt-5">
-            <div class="owl-carousel owl-theme" data-aos="fade-up">
-                <div class="item">
-                    <div class="w3l-customers-7">
-                        <div class="customers_sur">
-                            <div class="customers-left_sur">
-                                <div class="customers_grid">
-                                    <div class="custo-img-res mb-3">
-                                        <img src="assets/images/team1.png" alt="Damrongsak Chinchotiphan" class="rounded-circle img-fluid shadow-lg">
-                                    </div>
-                                    <p class="mb-3">"Respect yourself enough to know that you deserve the very best."</p>
-                                    <h6><a href="#team-single.html" class="title-team-32">Damrongsak Chinchotiphan</a></h6>
-                                    <p class="sm-text-32">Director & Co-Founder</p>
-                                    <div class="social-teams mt-2">
-                                        <a class="facebook" target="_blank" href="https://web.facebook.com/thun.chinchotiphan"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                        <a class="twitter" target="_blank" href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                                        <a class="insta" target="_blank" href="#"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      </div>
+      <div class="large-12 columns mt-5">
+        <div class="owl-carousel owl-theme" data-aos="fade-up">
+          <div class="item">
+            <div class="w3l-customers-7">
+              <div class="customers_sur">
+                <div class="customers-left_sur">
+                  <div class="customers_grid">
+                    <div class="custo-img-res mb-3">
+                      <img src="assets/images/team1.png" alt="Damrongsak Chinchotiphan"
+                        class="rounded-circle img-fluid shadow-lg">
                     </div>
-                </div>
-                <div class="item">
-                    <div class="w3l-customers-7">
-                        <div class="customers_sur">
-                            <div class="customers-left_sur">
-                                <div class="customers_grid">
-                                    <div class="custo-img-res mb-3">
-                                        <img src="assets/images/team2.png" alt="NottDev" class="rounded-circle img-fluid shadow-lg">
-                                    </div>
-                                    <p class="mb-3">"Challenges are what make life interesting.Overcoming them is what makes life meaningful."</p>
-                                    <h6><a href="#team-single.html" class="title-team-32">NottDev</a></h6>
-                                    <p class="sm-text-32">Chief Technology Officer & Co-Founder</p>
-                                    <div class="social-teams mt-2">
-                                        <a class="medium" target="_blank" href="https://medium.com/@siriphonnot"><span class="fa fa-medium" aria-hidden="true"></span></a>
-                                        <a class="globe" target="_blank" href="https://nottdev.com"><span class="fa fa-globe" aria-hidden="true"></span></a>
-                                        <a class="facebook" target="_blank" href="https://facebook.com/siriphonnot"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                        <a class="twitter" target="_blank" href="https://twitter.com/siriphonnot"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                                        <a class="insta" target="_blank" href="https://www.instagram.com/siriphonnot/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <p class="mb-3">"Respect yourself enough to know that you deserve the very best."</p>
+                    <h6><a href="#team-single.html" class="title-team-32">Damrongsak Chinchotiphan</a></h6>
+                    <p class="sm-text-32">Director & Co-Founder</p>
+                    <div class="social-teams mt-2">
+                      <a class="facebook" target="_blank" href="https://web.facebook.com/thun.chinchotiphan"><span
+                          class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <a class="twitter" target="_blank" href="#"><span class="fa fa-twitter"
+                          aria-hidden="true"></span></a>
+                      <a class="insta" target="_blank" href="#"><span class="fa fa-instagram"
+                          aria-hidden="true"></span></a>
                     </div>
-                </div>
-                <div class="item">
-                  <div class="w3l-customers-7">
-                      <div class="customers_sur">
-                          <div class="customers-left_sur">
-                              <div class="customers_grid">
-                                  <div class="custo-img-res mb-3"> 
-                                      <img src="assets/images/team3.png" alt="Emiio Sf" class="rounded-circle img-fluid shadow-lg">
-                                  </div>
-                                  <p class="mb-3">"Your future is created by what you do today, not tomorrow."</p>
-                                  <h6><a href="#team-single.html" class="title-team-32">Emiio Sf</a></h6>
-                                  <p class="sm-text-32">Designer & Marketing</p>
-                                  <div class="social-teams mt-2">
-                                      <a class="facebook" target="_blank" href="https://web.facebook.com/emiio.sf"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                      <a class="twitter" target="_blank" href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                                      <a class="insta" target="_blank" href="https://www.instagram.com/Emiio/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
                   </div>
+                </div>
               </div>
             </div>
-        </div>
-    </div>
-</section>
-<!--//testimonials section -->
-
-<!-- stats section -->
-<section id="stats" class="stats">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 margin-md-60" data-aos="fade-up">
-                <h2 class="left-title">Users online</h2>
-                <p class="white">Number of users of Mamove platform.</p>
-            </div>
-            <div class="col-lg-7 mt-lg-0 mt-5" data-aos="fade-up">
-                <div class="d-sm-flex justify-content-lg-center justify-content-center">
-                    <div class="counter">
-                        <div class="icon">
-                            <span class="fa fa-users"></span>
-                        </div>
-                        <p class="value total-users"></p>
-                        <p class="title white">Total users</p>
+          </div>
+          <div class="item">
+            <div class="w3l-customers-7">
+              <div class="customers_sur">
+                <div class="customers-left_sur">
+                  <div class="customers_grid">
+                    <div class="custo-img-res mb-3">
+                      <img src="assets/images/team2.png" alt="NottDev" class="rounded-circle img-fluid shadow-lg">
                     </div>
+                    <p class="mb-3">"Challenges are what make life interesting.Overcoming them is what makes life
+                      meaningful."</p>
+                    <h6><a href="#team-single.html" class="title-team-32">NottDev</a></h6>
+                    <p class="sm-text-32">Chief Technology Officer & Co-Founder</p>
+                    <div class="social-teams mt-2">
+                      <a class="medium" target="_blank" href="https://medium.com/@siriphonnot"><span
+                          class="fa fa-medium" aria-hidden="true"></span></a>
+                      <a class="globe" target="_blank" href="https://nottdev.com"><span class="fa fa-globe"
+                          aria-hidden="true"></span></a>
+                      <a class="facebook" target="_blank" href="https://facebook.com/siriphonnot"><span
+                          class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <a class="twitter" target="_blank" href="https://twitter.com/siriphonnot"><span
+                          class="fa fa-twitter" aria-hidden="true"></span></a>
+                      <a class="insta" target="_blank" href="https://www.instagram.com/siriphonnot/"><span
+                          class="fa fa-instagram" aria-hidden="true"></span></a>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- //stats section -->
-
-<!-- homepage blog grids -->
-<section id="blog" class="">
-    <div class="container">
-			<div class="row align-items-center">
-					<div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12" data-aos="fade-up">
-							<h4 class="section-title">News</h4>
-							<p class="text-center"></p>
-					</div>
-			</div>
-			<div class="blog-grids mt-5">
-				<div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020" target="_blank">
-								<figure><img src="assets/images/news-09.jpg" class="img-fluid" alt="แนะนำผลิตภัณฑ์ Mamove และช่องทางการจัดจำหน่าย"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020" target="_blank">แนะนำผลิตภัณฑ์ Mamove และช่องทางการจัดจำหน่าย</a> </h3>
-								<ul>
-										<li><a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020" target="_blank">Sale Here</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>December 28, 2020</li>
-								</ul>
-						</div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://youtu.be/IwlglKGQgCU" target="_blank">
-								<figure><img src="assets/images/news-08.jpg" class="img-fluid" alt="สติ๊กเกอร์ Mamove ที่คนใช้รถต้องมี ช่วยแก้ปัญหาการจอดรถกีดขวาง"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://youtu.be/IwlglKGQgCU" target="_blank">สติ๊กเกอร์ Mamove ที่<span class="underline-red">คนใช้รถต้องมี</span> ช่วยแก้ปัญหาการจอดรถกีดขวาง</a> </h3>
-								<ul>
-										<li><a href="https://youtu.be/IwlglKGQgCU" target="_blank">
-                      โต๊ะข่าว C3 - DailyC3</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>December 28, 2020</li>
-								</ul>
-						</div>
+          <div class="item">
+            <div class="w3l-customers-7">
+              <div class="customers_sur">
+                <div class="customers-left_sur">
+                  <div class="customers_grid">
+                    <div class="custo-img-res mb-3">
+                      <img src="assets/images/team3.png" alt="Emiio Sf" class="rounded-circle img-fluid shadow-lg">
+                    </div>
+                    <p class="mb-3">"Your future is created by what you do today, not tomorrow."</p>
+                    <h6><a href="#team-single.html" class="title-team-32">Emiio Sf</a></h6>
+                    <p class="sm-text-32">Designer & Marketing</p>
+                    <div class="social-teams mt-2">
+                      <a class="facebook" target="_blank" href="https://web.facebook.com/emiio.sf"><span
+                          class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <a class="twitter" target="_blank" href="#"><span class="fa fa-twitter"
+                          aria-hidden="true"></span></a>
+                      <a class="insta" target="_blank" href="https://www.instagram.com/Emiio/"><span
+                          class="fa fa-instagram" aria-hidden="true"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://youtu.be/DRIg2TpQSvY" target="_blank">
-								<figure><img src="assets/images/news-07.jpg" class="img-fluid" alt="Mamove สัมภาษณ์ที่มาและแนวคิดการทำธุรกิจ"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://youtu.be/DRIg2TpQSvY" target="_blank">Mamove สัมภาษณ์ที่มาและแนวคิดการทำธุรกิจ </a> </h3>
-								<ul>
-										<li><a href="https://youtu.be/DRIg2TpQSvY" target="_blank">รายการมันตราเลดี้ - ช่อง GMM</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>December 20, 2020</li>
-								</ul>
-						</div>
-					</div>
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/" target="_blank">
-								<figure><img src="assets/images/news-06.jpg" class="img-fluid" alt="รู้จัก ‘Mamove’ QR Code ที่ทำให้การตามหาเจ้าของมาเลื่อนรถไม่ใช่เรื่องยากอีกต่อไป - The MATTER"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/" target="_blank">รู้จัก ‘Mamove’ QR Code ที่ทำให้การตามหาเจ้าของมาเลื่อนรถไม่ใช่เรื่องยากอีกต่อไป</a> </h3>
-								<ul>
-										<li><a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/" target="_blank">The MATTER</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>November 20, 2020</li>
-								</ul>
-						</div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/" target="_blank">
-								<figure><img src="assets/images/news-05.jpg" class="img-fluid" alt="เจ้าของรถอยู่ไหนนะ : สติ๊กเกอร์ Mamove นวัตกรรมที่ช่วยแก้ปัญหาสังคม ช่วยทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น -คลิปส่งประกวด โดยคุณนฤพัทธ์"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/" target="_blank">เจ้าของรถอยู่ไหนนะ : สติ๊กเกอร์ Mamove นวัตกรรมที่ช่วยแก้ปัญหาสังคม ช่วยทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น</a> </h3>
-								<ul>
-										<li><a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/" target="_blank">คลิปส่งประกวด โดยคุณนฤพัทธ์</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>November 2, 2020</li>
-								</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">
-								<figure><img src="assets/images/news-04.jpg" class="img-fluid" alt="นวัตกรรม 'สติกเกอร์ Mamove' แก้ปัญหารถโดนจอดขวาง - ข่าวช่อง3 CH3 Thailand NEWS"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">นวัตกรรม 'สติกเกอร์ Mamove' แก้ปัญหารถโดนจอดขวาง - ข่าวช่อง3 CH3 Thailand NEWS</a> </h3>
-								<ul>
-										<li><a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">ข่าวช่อง3 CH3 Thailand NEWS</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>July 31, 2020</li>
-								</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">
-								<figure><img src="assets/images/news-02.jpg" class="img-fluid" alt='Mamove สติ๊กเกอร์ QR Code - ต้องการให้เลื่อนรถ โปรดสแกน'></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">Mamove สติ๊กเกอร์ QR Code - ต้องการให้เลื่อนรถ โปรดสแกน</a> </h3>
-								<ul>
-										<li><a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">Grand Prix Online</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>July 31, 2020</li>
-								</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://web.facebook.com/mamovethailand/posts/153245246295243" target="_blank">
-							<figure><img src="assets/images/news-03.jpg" class="img-fluid" alt="สัมภาษณ์สดผ่านวิทยุครอบครัวข่าว ส.ทร.FM106"></figure>
-						</a>
-						<div class="blog-info">
-							<h3><a href="https://web.facebook.com/mamovethailand/posts/153245246295243" target="_blank">สัมภาษณ์สดผ่านวิทยุครอบครัวข่าว ส.ทร.FM106 </a> </h3>
-							<ul>
-									<li><a href="https://web.facebook.com/mamovethailand/posts/153245246295243" target="_blank">วิทยุครอบครัวข่าว ส.ทร.FM106</a></li>
-									<li><span class="fa fa-calendar mr-2"></span>July 9, 2020</li>
-							</ul>
-						</div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
-						<a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">
-								<figure><img src="assets/images/news-01.jpg" class="img-fluid" alt="มาร่วมสร้าง “เจตนาที่ดี” กับ “MAMOVE” สติ๊กเกอร์เลื่อนรถฝีมือคนไทย"></figure>
-						</a>
-						<div class="blog-info">
-								<h3><a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">มาร่วมสร้าง “เจตนาที่ดี” กับ “MAMOVE” สติ๊กเกอร์เลื่อนรถฝีมือคนไทย</a> </h3>
-								<ul>
-										<li><a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">Grand Prix Online</a></li>
-										<li><span class="fa fa-calendar mr-2"></span>July 30, 2020</li>
-								</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-    </div>
-</section>
-<!-- //homepage blog grids -->
-
-<!-- site footer -->
-<footer id="site-footer">
-  <div class="top-footer">
-    <div class="container my-md-5 my-4">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="footer-logo mb-3" >
-            <a href="#">
-              <img src="assets/images/logo.png" alt="logo" class="rounded-circle img-fluid mr-1" width="50"><span class="text-capitalize"> Mamove</span> 
-            </a>
-          </div>
-          <div >
-            <p class="">ขอบคุณที่ท่านร่วมเป็นส่วนหนึ่งในการทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น</p>
-          </div>
-        </div>
-        <!-- Social -->
-        <div class="col-lg-6 mt-lg-0 mt-5 social" >
-          <a target="_blank" href="https://web.facebook.com/mamovethailand/" class="social-item"><span class="fa fa-facebook-f"></span></a>
-          <a target="_blank" href="https://www.instagram.com/mamove.sticker/" class="social-item"><span class="fa fa-instagram"></span></a>
-          <a target="_blank" href="https://www.youtube.com/channel/UCFYNatFc1sXcv2T1TGHJQtg" class="social-item"><span class="fa fa-youtube"></span></a>
-        </div>
-    </div>
-  </div>
-  <div class="bottom-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 text-lg-left text-center mb-lg-0 mb-3" >
-          <p class="copyright">© 2020 Mamove Thailand. All Rights Reserved</p>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<!-- //site footer -->
+  </section>
+  <!--//testimonials section -->
 
-<!-- move top -->
-<button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
-  <span class="fa fa-angle-up"></span>
-</button>
+  <!-- stats section -->
+  <section id="stats" class="stats">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 margin-md-60" data-aos="fade-up">
+          <h2 class="left-title">Users online</h2>
+          <p class="white">Number of users of Mamove platform.</p>
+        </div>
+        <div class="dashboard-wrapper col-lg-7 mt-lg-0 mt-5 d-flex flex-sm-row flex-column justify-content-between" data-aos="fade-up">
+          <div class="d-sm-flex justify-content-lg-center justify-content-center">
+            <div class="counter">
+              <div class="icon">
+                <span class="fa fa-users"></span>
+              </div>
+              <p class="value total-users"></p>
+              <p class="title white">Total users</p>
+            </div>
+          </div>
+          <div class="d-sm-flex justify-content-lg-center justify-content-center">
+            <div class="counter">
+              <div class="icon">
+                <span class="fa fa-calendar"></span>
+              </div>
+              <p class="value total-users-active-month"></p>
+              <p class="title white">Total active this month</p>
+            </div>
+          </div>
+          <div class="d-sm-flex justify-content-lg-center justify-content-center">
+            <div class="counter">
+              <div class="icon">
+                <span class="fa fa-calendar-plus-o"></span>
+              </div>
+              <p class="value total-users-active-week"></p>
+              <p class="title white">Total active this week</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //stats section -->
 
-<script>
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function () {
-    scrollFunction()
-  };
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("movetop").style.display = "block";
-    } else {
-      document.getElementById("movetop").style.display = "none";
-    }
-  }
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-<!-- //move top -->
+  <!-- homepage blog grids -->
+  <section id="blog" class="">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12" data-aos="fade-up">
+          <h4 class="section-title">News</h4>
+          <p class="text-center"></p>
+        </div>
+      </div>
+      <div class="blog-grids mt-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020" target="_blank">
+              <figure><img src="assets/images/news-09.jpg" class="img-fluid"
+                  alt="แนะนำผลิตภัณฑ์ Mamove และช่องทางการจัดจำหน่าย"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020"
+                  target="_blank">แนะนำผลิตภัณฑ์ Mamove และช่องทางการจัดจำหน่าย</a> </h3>
+              <ul>
+                <li><a href="https://salehere.co.th/mamove/promotions/sticker-car-december-2020" target="_blank">Sale
+                    Here</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>December 28, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://youtu.be/IwlglKGQgCU" target="_blank">
+              <figure><img src="assets/images/news-08.jpg" class="img-fluid"
+                  alt="สติ๊กเกอร์ Mamove ที่คนใช้รถต้องมี ช่วยแก้ปัญหาการจอดรถกีดขวาง"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://youtu.be/IwlglKGQgCU" target="_blank">สติ๊กเกอร์ Mamove ที่<span
+                    class="underline-red">คนใช้รถต้องมี</span> ช่วยแก้ปัญหาการจอดรถกีดขวาง</a> </h3>
+              <ul>
+                <li><a href="https://youtu.be/IwlglKGQgCU" target="_blank">
+                    โต๊ะข่าว C3 - DailyC3</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>December 28, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://youtu.be/DRIg2TpQSvY" target="_blank">
+              <figure><img src="assets/images/news-07.jpg" class="img-fluid"
+                  alt="Mamove สัมภาษณ์ที่มาและแนวคิดการทำธุรกิจ"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://youtu.be/DRIg2TpQSvY" target="_blank">Mamove สัมภาษณ์ที่มาและแนวคิดการทำธุรกิจ </a>
+              </h3>
+              <ul>
+                <li><a href="https://youtu.be/DRIg2TpQSvY" target="_blank">รายการมันตราเลดี้ - ช่อง GMM</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>December 20, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/" target="_blank">
+              <figure><img src="assets/images/news-06.jpg" class="img-fluid"
+                  alt="รู้จัก ‘Mamove’ QR Code ที่ทำให้การตามหาเจ้าของมาเลื่อนรถไม่ใช่เรื่องยากอีกต่อไป - The MATTER">
+              </figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/"
+                  target="_blank">รู้จัก ‘Mamove’ QR Code ที่ทำให้การตามหาเจ้าของมาเลื่อนรถไม่ใช่เรื่องยากอีกต่อไป</a>
+              </h3>
+              <ul>
+                <li><a href="https://www.facebook.com/thematterco/photos/a.1735876059961122/2751156175099767/"
+                    target="_blank">The MATTER</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>November 20, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/" target="_blank">
+              <figure><img src="assets/images/news-05.jpg" class="img-fluid"
+                  alt="เจ้าของรถอยู่ไหนนะ : สติ๊กเกอร์ Mamove นวัตกรรมที่ช่วยแก้ปัญหาสังคม ช่วยทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น -คลิปส่งประกวด โดยคุณนฤพัทธ์">
+              </figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/"
+                  target="_blank">เจ้าของรถอยู่ไหนนะ : สติ๊กเกอร์ Mamove นวัตกรรมที่ช่วยแก้ปัญหาสังคม
+                  ช่วยทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น</a> </h3>
+              <ul>
+                <li><a href="https://www.facebook.com/mamovethailand/videos/1456961931164407/"
+                    target="_blank">คลิปส่งประกวด โดยคุณนฤพัทธ์</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>November 2, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">
+              <figure><img src="assets/images/news-04.jpg" class="img-fluid"
+                  alt="นวัตกรรม 'สติกเกอร์ Mamove' แก้ปัญหารถโดนจอดขวาง - ข่าวช่อง3 CH3 Thailand NEWS"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">นวัตกรรม 'สติกเกอร์ Mamove'
+                  แก้ปัญหารถโดนจอดขวาง - ข่าวช่อง3 CH3 Thailand NEWS</a> </h3>
+              <ul>
+                <li><a href="https://ch3thailandnews.bectero.com/news/205742" target="_blank">ข่าวช่อง3 CH3 Thailand
+                    NEWS</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>July 31, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">
+              <figure><img src="assets/images/news-02.jpg" class="img-fluid"
+                  alt='Mamove สติ๊กเกอร์ QR Code - ต้องการให้เลื่อนรถ โปรดสแกน'></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">Mamove
+                  สติ๊กเกอร์ QR Code - ต้องการให้เลื่อนรถ โปรดสแกน</a> </h3>
+              <ul>
+                <li><a href="https://web.facebook.com/grandprixonline/posts/3086543351399785" target="_blank">Grand Prix
+                    Online</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>July 31, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://web.facebook.com/mamovethailand/posts/153245246295243" target="_blank">
+              <figure><img src="assets/images/news-03.jpg" class="img-fluid"
+                  alt="สัมภาษณ์สดผ่านวิทยุครอบครัวข่าว ส.ทร.FM106"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://web.facebook.com/mamovethailand/posts/153245246295243"
+                  target="_blank">สัมภาษณ์สดผ่านวิทยุครอบครัวข่าว ส.ทร.FM106 </a> </h3>
+              <ul>
+                <li><a href="https://web.facebook.com/mamovethailand/posts/153245246295243"
+                    target="_blank">วิทยุครอบครัวข่าว ส.ทร.FM106</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>July 9, 2020</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 blog-grid" id="zoomIn" data-aos="fade-up">
+            <a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">
+              <figure><img src="assets/images/news-01.jpg" class="img-fluid"
+                  alt="มาร่วมสร้าง “เจตนาที่ดี” กับ “MAMOVE” สติ๊กเกอร์เลื่อนรถฝีมือคนไทย"></figure>
+            </a>
+            <div class="blog-info">
+              <h3><a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">มาร่วมสร้าง
+                  “เจตนาที่ดี” กับ “MAMOVE” สติ๊กเกอร์เลื่อนรถฝีมือคนไทย</a> </h3>
+              <ul>
+                <li><a href="https://www.grandprix.co.th/mamove-สติ๊กเกอร์เลื่อนรถ/" target="_blank">Grand Prix
+                    Online</a></li>
+                <li><span class="fa fa-calendar mr-2"></span>July 30, 2020</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //homepage blog grids -->
 
-<!-- javascript -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- site footer -->
+  <footer id="site-footer">
+    <div class="top-footer">
+      <div class="container my-md-5 my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer-logo mb-3">
+              <a href="#">
+                <img src="assets/images/logo.png" alt="logo" class="rounded-circle img-fluid mr-1" width="50"><span
+                  class="text-capitalize"> Mamove</span>
+              </a>
+            </div>
+            <div>
+              <p class="">ขอบคุณที่ท่านร่วมเป็นส่วนหนึ่งในการทำให้สังคมไทยน่าอยู่มากยิ่งขึ้น</p>
+            </div>
+          </div>
+          <!-- Social -->
+          <div class="col-lg-6 mt-lg-0 mt-5 social">
+            <a target="_blank" href="https://web.facebook.com/mamovethailand/" class="social-item"><span
+                class="fa fa-facebook-f"></span></a>
+            <a target="_blank" href="https://www.instagram.com/mamove.sticker/" class="social-item"><span
+                class="fa fa-instagram"></span></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCFYNatFc1sXcv2T1TGHJQtg" class="social-item"><span
+                class="fa fa-youtube"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 text-lg-left text-center mb-lg-0 mb-3">
+              <p class="copyright">© 2020 Mamove Thailand. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!-- //site footer -->
 
-<!-- aos -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
 
-<!-- libhtbox -->
-<script src="assets/js/lightbox-plus-jquery.min.js"></script>
-
-<!-- particles -->
-<script src='assets/js/particles.min.js'></script>
-<script src="assets/js/script.js"></script>
-
-<!-- video -->
-<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
-
-<!-- owl carousel -->
-<script src="assets/js/owl.carousel.js"></script>
-
-<script>
-  $(document).ready(function () {
-    AOS.init();
-		let playerIntroduce, playerPromote, owl
-		playerIntroduce = new Plyr('#player')
-		playerPromote   = new Plyr('#player-news')
-		playerPromote.autoplay = true
-		playerPromote.on('ready', event => {
-			const instance = event.detail.plyr;
-			setTimeout(() => {
-				if(!instance.playing) instance.play()
-			}, 3000);
-		});
-
-		owl = $('.owl-carousel')
-    owl.owlCarousel({
-      margin: 10,
-      nav: true,
-      loop: false,
-      responsive: {
-        0: {
-          items: 1
-        },
-        767: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
       }
-    })
-  })
-</script>
-
-<!-- disable body scroll which navbar is in active -->
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- disable body scroll which navbar is in active -->
-
-<!-- bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
-
-<!-- Default Statcounter code for Mamove Thailand
-https://homepage.mamove.co -->
-<script type="text/javascript">
-  var sc_project=12354225; 
-  var sc_invisible=0; 
-  var sc_security="5128ec54"; 
-  var sc_https=1; 
-  var scJsHost = "https://";
-  document.write("<sc"+"ript type='text/javascript' src='" +
-  scJsHost+
-  "statcounter.com/counter/counter.js'></"+"script>");
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
-  <noscript><div class="statcounter"><a title="Web Analytics"
-  href="https://statcounter.com/" target="_blank"><img
-  class="statcounter"
-  src="https://c.statcounter.com/12354225/0/5128ec54/0/"
-  alt="Web Analytics"></a></div></noscript>
+  <!-- //move top -->
+
+  <!-- javascript -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- libhtbox -->
+  <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- particles -->
+  <script src='assets/js/particles.min.js'></script>
+  <script src="assets/js/script.js"></script>
+
+  <!-- video -->
+  <script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
+
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      AOS.init();
+      let playerIntroduce, playerPromote, owl
+      playerIntroduce = new Plyr('#player')
+      playerPromote = new Plyr('#player-news')
+      playerPromote.autoplay = true
+      playerPromote.on('ready', event => {
+        const instance = event.detail.plyr;
+        setTimeout(() => {
+          if (!instance.playing) instance.play()
+        }, 3000);
+      });
+
+      owl = $('.owl-carousel')
+      owl.owlCarousel({
+        margin: 10,
+        nav: true,
+        loop: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          767: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    })
+  </script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!-- bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Default Statcounter code for Mamove Thailand
+https://homepage.mamove.co -->
+  <script type="text/javascript">
+    var sc_project = 12354225;
+    var sc_invisible = 0;
+    var sc_security = "5128ec54";
+    var sc_https = 1;
+    var scJsHost = "https://";
+    document.write("<sc" + "ript type='text/javascript' src='" +
+      scJsHost +
+      "statcounter.com/counter/counter.js'></" + "script>");
+  </script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
+          class="statcounter" src="https://c.statcounter.com/12354225/0/5128ec54/0/" alt="Web Analytics"></a></div>
+  </noscript>
   <!-- End of Statcounter Code -->
 
 </body>
+
 </html>
