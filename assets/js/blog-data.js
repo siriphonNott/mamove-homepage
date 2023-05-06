@@ -47,14 +47,14 @@ const blogData = [
   },
   {
     title: 'Mamove สติ๊กเกอร์ QR Code - ต้องการให้เลื่อนรถ โปรดสแกน',
-    thumbnailUrl: 'assets/images/news-02.jpg',
+    thumbnailUrl: 'assets/images/news-03.jpg',
     channel: 'Grand Prix Online',
     linkUrl: 'https://web.facebook.com/grandprixonline/posts/3086543351399785',
     date: 'July 31, 2020',
   },
   {
     title: 'สัมภาษณ์สดผ่านวิทยุครอบครัวข่าว ส.ทร.FM106',
-    thumbnailUrl: 'assets/images/news-03.jpg',
+    thumbnailUrl: 'assets/images/news-02.jpg',
     channel: 'วิทยุครอบครัวข่าว ส.ทร.FM106',
     linkUrl: 'https://web.facebook.com/mamovethailand/posts/153245246295243',
     date: 'July 9, 2020',
